@@ -1,0 +1,45 @@
+body{
+    background-color: aqua;
+    background-repeat: repeat-x;
+}
+
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100px;
+    font-variant: small-caps;
+    color: brown;
+    
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    }
+p:last-of-type{
+    color:red;
+}
+
+.helo:link{
+    color:red;
+}
+.helo:hover:hover{
+    color: orange;
+    font-family: 'Courier New', Courier, monospace;
+    }
+.helo:hover:active{
+    font-style: italic;
+}
+.helo:visited{
+    color: blueviolet;
+}
+
+
+
+li:nth-child (add) a{
+    color: green;
+}
+li:nth-child(add) a:hover{
+    color:red;
+}
